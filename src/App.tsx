@@ -15,7 +15,7 @@ function App() {
   return (
     <div className='container'>
       <Card>
-        <CardImage src='https://i.ibb.co/Jy77K54/greeting.png' alt='Image cap'></CardImage>
+        <CardImage src='https://raw.githubusercontent.com/wee-owl/ra-compo-cards/main/src/assets/greeting.png' alt='Image cap'></CardImage>
         <CardDescription title='Card title' text="Some quick example text to build on the card title and make up the bulk of the card's content"></CardDescription>
         <CardButton text='Go somewhere'></CardButton>
       </Card>
