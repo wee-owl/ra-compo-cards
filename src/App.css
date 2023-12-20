@@ -1,0 +1,97 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1, 
+h2, 
+h3, 
+p {
+  margin: 0;
+}
+
+button {
+  display: block;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+html,
+body {
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #000000;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.card {
+  width: 320px;
+  margin: 0 auto;
+  border: 1px solid #abababab;
+  border-radius: 5px;
+}
+
+.card__preview {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  margin: 0 auto;
+  background-color: #ababab;
+}
+
+.card__img {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card__alt {
+  position: absolute;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.card__desc {
+  width: 100%;
+  padding: 20px;
+}
+
+.card__title {
+  width: 100%;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.card__text {
+  margin-top: 10px;
+}
+
+.card__btn {
+  margin: 0 0 20px 20px;
+  padding: 10px;
+  border: 1px solid #0f7ffa;
+  border-radius: 5px;
+  color: #ffffff;
+  line-height: 1;
+  background-color: #0f7ffa;
+}
